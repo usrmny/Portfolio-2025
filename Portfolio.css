@@ -1,0 +1,178 @@
+* {
+    font-weight: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  h1, h2, p, li{
+    color: white;
+  }
+
+  h1, li  {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+
+  #navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #2f4fbf;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: impact;
+    margin-right: 10vh;
+  }
+
+  #welcome-section{
+    height: 102vh;
+    padding: 20px 30px;
+    background: #223;
+    display: flex;
+  }
+
+  .text{
+    height: 100%;
+    width: 125vh;
+    text-align: left;
+    padding: 20px 10vh 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .name{
+    color: royalblue;
+  }
+
+  .image{
+    border: solid white 4px;
+    height: 70vh;
+    width: 60vh;
+    
+  }
+
+  #skills{
+    height: 102vh;
+    width: 100%;
+    background: #2f4fbf; 
+  }
+
+  #skills h2, ul{
+    margin-left: 10px;
+  }
+
+  .skill-header{
+    padding: 30px 0;
+  }
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px 40px 20px;
+    margin-top: 0px;
+  
+  }
+
+  li{
+    border: solid darkgrey 4px;
+    padding: 0 20px;
+    height: 40px;
+    margin-right: 10px;
+    background: lightgrey;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    border-radius: 5px;
+  }
+
+  #projects{
+    background: #223;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .projects-header{
+    padding-top: 5vh;
+  }
+
+  .project-tiles-holder{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .project-tile{
+    border: solid 2px white;
+    width: 35vh;
+    height: 40vh;
+    border-radius:20%;
+  }
+
+  .project-tile label{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #links{
+    width: 100%;
+    height: 10vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .email, .button{
+    margin-left: 15px;
+  }
+
+  .email{
+    color: white;
+    font-size: 16px;
+    
+  }
+
+  .button{
+    background: #2f4fbf;
+    border: none;
+    color: white;
+    padding: 2vh 3vh;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+
+  .button:hover{
+    background-color: #1a2aa4;
+  }
+
